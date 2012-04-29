@@ -1,4 +1,4 @@
-// Decoder.js
+// decoder.js
 //
 // A little program for inputting FEZ glyph sequences
 // and getting statistics on the glyphs used.

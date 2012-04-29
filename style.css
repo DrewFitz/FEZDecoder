@@ -1,22 +1,40 @@
-* { font-family: sans-serif; margin: 0; padding: 0; }
+* { /* reset */
+  font-family: sans-serif; 
+  margin: 0; 
+  padding: 0; 
+}
+
+body { 
+  width:1000px;
+}
 
 img {
-  min-width: 50px;
-  min-height: 50px;
+  min-width: 49px;
+  min-height: 49px;
   background-color: #0a0;
 }
-div {
-  background-color: #a00;
-  overflow:hidden;
+
+ul {
+  list-style-type:none;
 }
 
+li {
+  min-height: 50px;
+}
+
+li > p {
+  float:right;
+}
 
 #symbolEditor {
-  max-width: 250px;
+  max-width: 210px;
   float: left;
+  border-right: solid 3px;
+  border-bottom: solid 3px;
 }
 
 .symbolEditorButton {
+  cursor: pointer;
   margin-bottom: 5px;
   padding: 1px 1px 1px 1px;
   float: left;
@@ -25,18 +43,11 @@ div {
 }
 
 .symbolEditorButton:hover {
-  background-color: #fff;
+  background-color: #00a;
 }
 
-#stats {
-  margin-top: 10px;
-  color: white;
-  float: left;
-  clear: both;
-}
-
-li > p {
-  float:right;
+.sequenceItem {
+  cursor:pointer;
 }
 
 #sequenceView {
@@ -46,6 +57,14 @@ li > p {
   background-color: #00a;
 }
 
+#stats {
+  margin-top: 10px;
+  background: #a00;
+  color: white;
+  float: left;
+  clear: both;
+}
+
 #debug {
   position: absolute;
   bottom: 0;
@@ -53,12 +72,4 @@ li > p {
   background: black;
   color: white;
   font-weight: bold;
-}
-
-ul {
-  list-style-type:none;
-}
-
-li {
-  min-height: 50px;
 }
