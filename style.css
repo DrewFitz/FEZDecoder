@@ -1,0 +1,64 @@
+* { font-family: sans-serif; margin: 0; padding: 0; }
+
+img {
+  min-width: 50px;
+  min-height: 50px;
+  background-color: #0a0;
+}
+div {
+  background-color: #a00;
+  overflow:hidden;
+}
+
+
+#symbolEditor {
+  max-width: 250px;
+  float: left;
+}
+
+.symbolEditorButton {
+  margin-bottom: 5px;
+  padding: 1px 1px 1px 1px;
+  float: left;
+  display: inline;
+  overflow: hidden;
+}
+
+.symbolEditorButton:hover {
+  background-color: #fff;
+}
+
+#stats {
+  margin-top: 10px;
+  color: white;
+  float: left;
+  clear: both;
+}
+
+li > p {
+  float:right;
+}
+
+#sequenceView {
+  display:block;
+  float:left;
+  min-width: 500px;
+  background-color: #00a;
+}
+
+#debug {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: black;
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type:none;
+}
+
+li {
+  min-height: 50px;
+}
